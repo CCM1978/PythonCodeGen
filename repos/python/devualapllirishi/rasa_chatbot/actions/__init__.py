@@ -1,0 +1,2 @@
+def result():
+    return None
