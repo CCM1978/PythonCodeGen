@@ -12,7 +12,7 @@ end_time = time.time()
 start_time = end_time-86400
 
 #ACCESS_TOKEN = open("token.txt","r").read()
-g = Github('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')
+g = Github('token')
 print(g.get_user())
 
 for i in range(3):
